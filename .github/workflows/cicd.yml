@@ -11,8 +11,8 @@ on:
 env:
   DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
   DATABRICKS_TOKEN:  ${{ secrets.DATABRICKS_TOKEN }}
-  REPO_DIRECTORY: ${{ secrets.REPO_DIRECTORY }}
   CLUSTER_ID: ${{ secerts.CLUSTER_ID }}
+  REPO_DIRECTORY: ${{ secrets.REPO_DIRECTORY}}
 
 permissions:
   checks: write
